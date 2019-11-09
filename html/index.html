@@ -40,6 +40,14 @@
         });
     </script>
 
+    <script src="https://s3-us-west-2.amazonaws.com/ieeeshutpages/gdpr/settings.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+    <script>
+        window.addEventListener("load", function(){
+            window.cookieconsent.initialise(json)
+        });
+    </script>
 
 </head>
 
@@ -49,288 +57,329 @@
 <div class="mainBody">
 
     <div id="titleWrapper">
-        <div class="leftTitle"><a href="index.html"> <img height="220" src="./gfx/isorc_title2020.png"
+        <div class="leftTitle"><a href="index.html"> <img height="220" src="gfx/isorc_title2020.png"
                                                           width="385"/></a></div>
         <div id="home_images" style="overflow: hidden;">
-            <img border="0" height="220" src="./gfx/bannerPics/parthenon-nashville_scaled.jpg" width="640"/>
+            <img border="0" height="220" src="./gfx/bannerPics/Nashville_Parthenon.jpg" width="640"/>
+            <img border="0" height="220" src="./gfx/bannerPics/Nashville_downtown_scaled.jpg" width="640"/>
+            <img border="0" height="220" src="./gfx/bannerPics/Nashville_Vandy.jpg" width="640"/>
             <img border="0" height="220" src="./gfx/bannerPics/Nashville_bridgestone_scaled.jpg" width="640"/>
-            <img border="0" height="220" src="./gfx/bannerPics/Nashville_downtown.jpg" width="640"/>
             <img border="0" height="220" src="./gfx/bannerPics/Nashville_downtown2_scaled.jpg" width="640"/>
             <img border="0" height="220" src="./gfx/bannerPics/Nashville_bridge_scaled.jpg" width="640"/>
             <img border="0" height="220" src="./gfx/bannerPics/Nashville_downtown3.jpg" width="640"/>
             <img border="0" height="220" src="./gfx/bannerPics/Nashville_vanderbilt.jpg" width="640"/>
-            <img border="0" height="220" src="./gfx/bannerPics/NashvilleMural.jpg" width="640"/>
+            <img border="0" height="220" src="./gfx/bannerPics/Nashville_Mural.jpg" width="640"/>
+            <img border="0" height="220" src="./gfx/bannerPics/Nashville_percy.jpg" width="640"/>
+            <img border="0" height="220" src="./gfx/bannerPics/Nashville_Johny.jpg" width="640"/>
             <img border="0" height="220" src="./gfx/bannerPics/Nashville_cheekwood.jpg" width="640"/>
-    </div>
-
-
-    <ul id="nav">
-        <li class="aboutColour" style="width: 95px;height: 30px; text-align:center;"><a href="index.html">HOME</a>
-            <ul class="aboutColour aboutWidth">
-                <li><a href="html/orgCommittee.html">Organizing Committee</a></li>
-                <li><a href="html/pc.html">Program Committee</a></li>
-                <li><a href="html/contact.html">Contact Information</a></li>
-                <li><a href="https://isorc2019.github.io/">ISORC 2019</a></li>
-                <li><a href="https://cps-research-group.github.io/ISORC2018/">ISORC 2018</a></li>
-                <li><a href="http://www.isorc2017.org/">ISORC 2017</a></li>
-                <!-- Most of the old links are not working -->
-                <!--<li><a href="http://www.isorc2016.org/">ISORC 2016</a></li>
-                <li><a href="http://www.isorc2015.org/">ISORC 2015</a></li>
-                <li><a href="http://www.isorc2014.org/">ISORC 2014</a></li>
-                <li><a href="http://www.isorc.de/index.php/">ISORC 2013</a></li>
-                <li><a href="http://www.dit.upm.es/~isorc2010/">ISORC 2010</a></li> -->
-            </ul>
-        </li>
-        <li class="cfpColour" style="width: 84px;height: 30px; text-align:center;"><a href="html/cfp.html">CFP</a>
-            <ul class="cfpColour callWidth">
-
-                <li><a class="locWidth" href="html/cfp.html">HTML</a></li>
-                <li><a class="locWidth" href="resources/ISORC2019_CFP.pdf" target="_blank">PDF</a></li>
-                <!-- <li><a href="resources/ISORC2018_CFP.txt" target="_blank" class="locWidth">TXT</a></li> -->
-            </ul>
-        </li>
-
-
-        <li class="programColour" style="width: 130px;height: 30px"><a href="html/program.html">PROGRAM</a></li>
-
-        <li class="programColour" style="width: 170px;height: 30px"><a href="html/poster.html">POSTER/DEMO</a></li>
-        <li class="regColour" style="width: 164px;height: 30px"><a href="html/registration.html">REGISTRATION</a></li>
-        <li class="regColour" style="width: 95px;height: 30px"><a href="html/travel.html">TRAVEL</a></li>
-        <!--       <li class="locColour" style="width: 135px; "><a href="#">VENUE</a>
-                  <ul class="locColour locWidth">
-                      <li><a href="html/gettinghere.html" class="locWidth">How to get to us</a></li>
-                    <li><a href="http://www.ntu.edu.sg/nec/Pages/default.aspx" target="_blank" class="locWidth">Conference location</a></li>
-                    <li><a href="http://www.ntu.edu.sg/nec/guestrooms/Pages/Rates.aspx" target="_blank" class="locWidth">Hotel at NTU</a></li>
-                    <li><a href="http://www.ntu.edu.sg/AboutNTU/visitingntu/Pages/location.aspx" target="_blank" class="locWidth">Getting to NTU</a></li>
-
-                  </ul>
-                </li>
-        -->
-        <!--  <li class="cfpColour" style="width: 150px;"><a href="../resources/phd-forum-isorc2017.pdf">PHD-FORUM</a> -->
-        <!-- </li>        -->
-        <li class="programColour" style="width: 100px;height: 30px"><a href="html/social.html">SOCIAL</a></li>
-        <li class="programColour" style="width: 115px;height: 30px"><a href="html/contact.html">CONTACT</a></li>
-    </ul>
-
-
-    <div class="contentArea">
-
-        <div class="contentTitle">
-            <!-- InstanceBeginEditable name="TitleRegion" -->WELCOME TO THE IEEE ISORC 2020 <!-- InstanceEndEditable -->
         </div>
 
-        <div class="highlightBox"
-             style="background-color: #f49d0e; border-color: #1d4e89; font-size: 18px; padding: 5px; padding-left: 5px; margin-top: 20px;  font-weight:normal; text-align: left">
 
-            <!--
-                    <ul>
-                    <li>Dinner Banquet on May 30th will be at <a href="http://theprivegroup.com.sg/prive-acm.html" target="_blank">Privé </a>
-                        restaurant in the heart of Singapore city.</li>
-                    <li>  Contact <a href="mailto:arvinde@ntu.edu.sg">Arvind Easwaran</a> for a letter of invitation for the conference.
-                          <br />
-                          Please state your full name, affiliation and paper title (if applicable). </li>
-                    <li>  Accommodation at <a href="http://www.ntu.edu.sg/nec/guestrooms/Pages/Rates.aspx" target="_blank">NEC </a> (inside NTU campus) and
-                          at nearby <a href="https://www.rwsentosa.com/en/hotels/genting-hotel-jurong/room-types" target="_blank"> Genting hotel </a>
-                          (30 mins public transport).
-                          <br />
-                          Participants can avail a 10% discount on the advertised room rates in NEC (NTU).
-                          They need to indicate the name of the event they will be attending in the online booking form.
-                          Rooms will be available on a first-come-first-serve basis.</li>
-                     <li> <a href="http://www.ntu.edu.sg/has/FnB/Pages/NorthSpine.aspx" target="_blank">Eateries at NTU </a> and
-                          at nearby <a href="https://www.jurongpoint.com.sg/store" target="_blank"> Jurong Point Shopping Mall </a>
-                          (15 mins, catch bus 179 or 199, cost $2). </li>
-                     <li> <a href="http://www.ntu.edu.sg/AboutNTU/visitingntu/Pages/location.aspx" target="_blank"> Getting to NTU from airport</a>.
-                          Taxis are the most reasonable way to get to NTU from the airport. Depending on the time of day, taxis would cost between $30-$45
-                          for this ride.</li>
-                     <li> Industry excursion to
-                          <a href="http://erian.ntu.edu.sg/Programmes/IRP/FMSs/Pages/Centre-of-Excellence-for-Testing-Research-of-AVs-NTU-CETRAN.aspx" target="_blank">  CETRAN</a>,
-                          and either one of <a href="https://www.pub.gov.sg/watersupply/fournationaltaps/newater" target="_blank">  NEWater supply plant</a>
-                          or <a href="https://www.a-star.edu.sg/Portals/69/MCT/model-Factory.html" target="_blank">  Model factory at SIMTech. </a>
-                          Participants can select one option once they arrive at the conference.</li>
+        <ul id="nav">
+            <li class="aboutColour" style="width: 95px;height: 30px; text-align:center;"><a href="index.html">HOME</a>
+                <ul class="aboutColour aboutWidth">
+                    <li><a href="html/orgCommittee.html">Organizing Committee</a></li>
+                    <li><a href="html/pc.html">Program Committee</a></li>
+                    <li><a href="html/contact.html">Contact Information</a></li>
+                    <li><a href="https://isorc2019.github.io/">ISORC 2019</a></li>
+                    <li><a href="https://cps-research-group.github.io/ISORC2018/">ISORC 2018</a></li>
+                    <!-- <li><a href="http://www.isorc2017.org/">ISORC 2017</a></li> -->
+                    <!-- Most of the old links are not working -->
+                    <!--<li><a href="http://www.isorc2016.org/">ISORC 2016</a></li>
+                    <li><a href="http://www.isorc2015.org/">ISORC 2015</a></li>
+                    <li><a href="http://www.isorc2014.org/">ISORC 2014</a></li>
+                    <li><a href="http://www.isorc.de/index.php/">ISORC 2013</a></li>
+                    <li><a href="http://www.dit.upm.es/~isorc2010/">ISORC 2010</a></li> -->
+                </ul>
+            </li>
+            <li class="cfpColour" style="width: 84px;height: 30px; text-align:center;"><a href="cfp.html">CFP</a>
+                <ul class="cfpColour callWidth">
 
+                    <li><a class="locWidth" href="cfp.html">HTML</a></li>
+                    <li><a class="locWidth" href="resources/CFP/ISORC2020_CFP_v8.pdf" target="_blank">PDF</a></li>
+                    <!-- <li><a href="resources/ISORC2018_CFP.txt" target="_blank" class="locWidth">TXT</a></li> -->
+                </ul>
+            </li>
+
+
+            <li class="programColour" style="width: 130px;height: 30px"><a href="program.html">PROGRAM</a></li>
+
+            <li class="programColour" style="width: 170px;height: 30px"><a href="poster.html">POSTER/DEMO</a></li>
+            <li class="regColour" style="width: 164px;height: 30px"><a href="registration.html">REGISTRATION</a>
+            </li>
+            <li class="regColour" style="width: 95px;height: 30px"><a href="travel.html">TRAVEL</a></li>
+            <!--       <li class="locColour" style="width: 135px; "><a href="#">VENUE</a>
+                      <ul class="locColour locWidth">
+                          <li><a href="html/gettinghere.html" class="locWidth">How to get to us</a></li>
+                        <li><a href="http://www.ntu.edu.sg/nec/Pages/default.aspx" target="_blank" class="locWidth">Conference location</a></li>
+                        <li><a href="http://www.ntu.edu.sg/nec/guestrooms/Pages/Rates.aspx" target="_blank" class="locWidth">Hotel at NTU</a></li>
+                        <li><a href="http://www.ntu.edu.sg/AboutNTU/visitingntu/Pages/location.aspx" target="_blank" class="locWidth">Getting to NTU</a></li>
+
+                      </ul>
+                    </li>
             -->
-
-            </strong></div>
+            <!--  <li class="cfpColour" style="width: 150px;"><a href="../resources/phd-forum-isorc2017.pdf">PHD-FORUM</a> -->
+            <!-- </li>        -->
+            <li class="programColour" style="width: 100px;height: 30px"><a href="social.html">SOCIAL</a></li>
+            <li class="programColour" style="width: 115px;height: 30px"><a href="contact.html">CONTACT</a></li>
         </ul>
 
-        <!-- InstanceBeginEditable name="ContentRegion" -->
-
-        <br/>
 
         <div class="contentArea">
-            <div class="box1">
-                <p align="justify"><strong>IEEE ISORC</strong> was founded in 1998 (with its first meeting in Kyoto,
-                    Japan) to address research into the application of real-time object-oriented distributed technology.
-                    Since then, ISORC has continually evolved to meet the latest challenges faced by researchers and
-                    practitioners in the real-time domain, with an emphasis on object-, component- and service-oriented
-                    systems and solutions.
-                </p>
 
-                <p align="justify">ISORC is a <strong>single-track conference,</strong> with a lively community.
-                    We have hosted a number of associated workshops, and are proud of our spirit of openness.
-                    We seek to encourage diverse views and new approaches to all Real-Time Issues and Challenges for
-                    novel
-                    applications and systems in RT computing issues.</p>
-                <!--This year's theme is <span style="color: #FF3300"><strong>Scalable, Real Time Analytics.</strong></span></p>-->
-
-                <p align="justify"> Accepted papers from ISORC 2020 will be invited for submission to a Special Issue of a Journal that
-                    will be advertised in short.</p>
-
-                <p align="justify">Papers are to be submitted through the <a href="https://easychair.org/conferences/?conf=isorc2019">
-                    Easychair system </a>.</p>
-            </div>
-            <div class="box2">
-                <p><strong>
-                    <center><big>Important Dates</big></center>
-                </strong> <br/>
-                    <strong>Main Track:</strong> <br/>
-                    <span>Submission deadline: TBD</span><br/>
-                    <span>Extended submission deadline: TBD</span><br/>
-                    <span>Further extended submission deadline (firm): TBD</span><br/>
-                    <!-- <s>New submission deadline: Feb. 14, 2018</s><br /> -->
-                    <span>Acceptance notification: TBD</span><br/>
-                    <span>Camera-ready papers: TBD</span><br/>
-                    <!-- <s>Early registration (for authors): Mar. 30, 2018</s><br /> -->
-                    <!-- <s>Early registration (for non-authors): Apr. 30, 2018</s><br /> -->
-                    Conference: TBD<br/> <br/>
-                    <!--Early-registration deadline: Apr. 20, 2018<br /> -->
-
-                    <strong>Poster/Demo Session:</strong> <br/>
-                    <span>Submission deadline: TBD</span><br/>
-                    <!-- <s>New submission deadline: Feb. 14, 2018</s><br /> -->
-                    <span>Acceptance notification: TBD</span><br/>
-                    <span>Camera-ready papers: TBD</span><br/> <br/>
-
-                    <strong>Registration:</strong> <br/>
-                    <span>Author registration deadline: TBD</span><br/>
-                    <span>Early registration deadline: TBD</span><br/>
-                    <span>Late registration deadline: TBD</span><br/>
+            <div class="contentTitle">
+                <!-- InstanceBeginEditable name="TitleRegion" -->WELCOME TO THE IEEE ISORC 2020
+                <!-- InstanceEndEditable -->
             </div>
 
-            <!--<div class="box3" >
-              <p><strong>Information:</strong> <br />
-              <a  href="resources/ISORC2018_keynoteAbhik.txt" target="_blank">May 29: Keynote by Abhik Roychoudhury. From timing and energy analysis to testing</a> <br />
-              <!--<br />
-              <a href="html/visa.html">Visa information</a>
-            </div>-->
+            <div class="highlightBox"
+                 style="background-color: #f49d0e; border-color: #1d4e89; font-size: 18px; padding: 5px; padding-left: 5px; margin-top: 20px;  font-weight:normal; text-align: left">
 
-        </div>
+                <!--
+                        <ul>
+                        <li>Dinner Banquet on May 30th will be at <a href="http://theprivegroup.com.sg/prive-acm.html" target="_blank">Privé </a>
+                            restaurant in the heart of Singapore city.</li>
+                        <li>  Contact <a href="mailto:arvinde@ntu.edu.sg">Arvind Easwaran</a> for a letter of invitation for the conference.
+                              <br />
+                              Please state your full name, affiliation and paper title (if applicable). </li>
+                        <li>  Accommodation at <a href="http://www.ntu.edu.sg/nec/guestrooms/Pages/Rates.aspx" target="_blank">NEC </a> (inside NTU campus) and
+                              at nearby <a href="https://www.rwsentosa.com/en/hotels/genting-hotel-jurong/room-types" target="_blank"> Genting hotel </a>
+                              (30 mins public transport).
+                              <br />
+                              Participants can avail a 10% discount on the advertised room rates in NEC (NTU).
+                              They need to indicate the name of the event they will be attending in the online booking form.
+                              Rooms will be available on a first-come-first-serve basis.</li>
+                         <li> <a href="http://www.ntu.edu.sg/has/FnB/Pages/NorthSpine.aspx" target="_blank">Eateries at NTU </a> and
+                              at nearby <a href="https://www.jurongpoint.com.sg/store" target="_blank"> Jurong Point Shopping Mall </a>
+                              (15 mins, catch bus 179 or 199, cost $2). </li>
+                         <li> <a href="http://www.ntu.edu.sg/AboutNTU/visitingntu/Pages/location.aspx" target="_blank"> Getting to NTU from airport</a>.
+                              Taxis are the most reasonable way to get to NTU from the airport. Depending on the time of day, taxis would cost between $30-$45
+                              for this ride.</li>
+                         <li> Industry excursion to
+                              <a href="http://erian.ntu.edu.sg/Programmes/IRP/FMSs/Pages/Centre-of-Excellence-for-Testing-Research-of-AVs-NTU-CETRAN.aspx" target="_blank">  CETRAN</a>,
+                              and either one of <a href="https://www.pub.gov.sg/watersupply/fournationaltaps/newater" target="_blank">  NEWater supply plant</a>
+                              or <a href="https://www.a-star.edu.sg/Portals/69/MCT/model-Factory.html" target="_blank">  Model factory at SIMTech. </a>
+                              Participants can select one option once they arrive at the conference.</li>
+
+                -->
+
+                </strong></div>
+            </ul>
+
+            <!-- InstanceBeginEditable name="ContentRegion" -->
+
+            <br/>
+
+            <div class="contentArea">
+                <div class="box1">
+                    <p align="justify"><strong>IEEE ISORC</strong> was founded in 1998 (with its first meeting in Kyoto,
+                        Japan) to address research into the application of real-time object-oriented distributed
+                        technology.
+                        Since then, ISORC has continually evolved to meet the latest challenges faced by researchers and
+                        practitioners in the real-time domain, with an emphasis on object-, component- and
+                        service-oriented
+                        systems and solutions.
+                    </p>
+
+                    <p align="justify">ISORC is a <strong>single-track conference,</strong> with a lively community.
+                        We have hosted a number of associated workshops, and are proud of our spirit of openness.
+                        We seek to encourage diverse views and new approaches to all Real-Time Issues and Challenges for
+                        novel
+                        applications and systems in RT computing issues.</p>
+                    <!--This year's theme is <span style="color: #FF3300"><strong>Scalable, Real Time Analytics.</strong></span></p>-->
+
+                    <p align="justify"> Accepted papers from ISORC 2020 will be invited for submission to a Special
+                        Issue of a Journal that
+                        will be advertised in short.</p>
+
+                    <p align="justify">Papers are to be submitted through the <a
+                            href="https://easychair.org/conferences/?conf=isorc2020">
+                        Easychair system </a>.</p>
+
+                    <p align="justify">
+                        For our 23rd symposium, <strong>we are meeting in USA, </strong> in the city of <b>Nashville</b>
+                        <!-- Madrid from <strong>May 29 - 31, 2018</strong>  -->.
+                        Our meetings will take place at <b>TBD</b>.
+                        <!-- <a href="http://www.ntu.edu.sg/nec/Pages/default.aspx">Nanyang Executive Centre, NTU</a>. -->
+
+                        For more information on IEEE ISORC 2020 and its location, calls for papers, workshops, and
+                        events,
+                        please use the menu bar at the top of the screen of the main page. We look forward to seeing you
+                        in USA in
+                        Nashville 2020!</p>
+
+                    <div class="mapouter">
+                        <div class="gmap_canvas">
+                            <iframe width="600" height="300" id="gmap_canvas"
+                                    src="https://maps.google.com/maps?q=Nashville&t=k&z=13&ie=UTF8&iwloc=&output=embed"
+                                    frameborder="2" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                        </div>
+                        <style>.mapouter {
+                            position: relative;
+                            text-align: right;
+                            height: 300px;
+                            width: 600px;
+                        }
+
+                        .gmap_canvas {
+                            overflow: hidden;
+                            background: none !important;
+                            height: 500px;
+                            width: 600px;
+                        }</style>
+                    </div>
+                </div>
+                <div class="box2">
+                    <p><strong>
+                        <center><big>Important Dates</big></center>
+                    </strong> <br/>
+                        <strong>Main Track:</strong> <br/>
+                        <span>Submission deadline: TBD</span><br/>
+                        <!-- <span>Extended submission deadline: TBD</span><br/> -->
+                        <!-- <span>Further extended submission deadline (firm): TBD</span><br/> -->
+                        <!-- <s>New submission deadline: Feb. 14, 2018</s><br /> -->
+                        <span>Acceptance notification: TBD</span><br/>
+                        <span>Camera-ready papers: TBD</span><br/>
+                        <!-- <s>Early registration (for authors): Mar. 30, 2018</s><br /> -->
+                        <!-- <s>Early registration (for non-authors): Apr. 30, 2018</s><br /> -->
+                        Conference: May 19 - 21, 2020<br/> <br/>
+                        <!--Early-registration deadline: Apr. 20, 2018<br /> -->
+
+                        <strong>Poster/Demo Session:</strong> <br/>
+                        <span>Submission deadline: TBD</span><br/>
+                        <!-- <s>New submission deadline: Feb. 14, 2018</s><br /> -->
+                        <span>Acceptance notification: TBD</span><br/>
+                        <span>Camera-ready papers: TBD</span><br/> <br/>
+
+                        <strong>Registration:</strong> <br/>
+                        <span>Author registration deadline: TBD</span><br/>
+                        <span>Early registration deadline: TBD</span><br/>
+                        <span>Late registration deadline: TBD</span><br/>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <a class="twitter-timeline" data-width="360" data-height="360" data-theme="dark"
+                       data-link-color="#E95F28" href="https://twitter.com/isorc2?ref_src=twsrc%5Etfw">Tweets by
+                        isorc2020</a>
+                    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+                </div>
+
+                <!--<div class="box3" >
+                  <p><strong>Information:</strong> <br />
+                  <a  href="resources/ISORC2018_keynoteAbhik.txt" target="_blank">May 29: Keynote by Abhik Roychoudhury. From timing and energy analysis to testing</a> <br />
+                  <!--<br />
+                  <a href="html/visa.html">Visa information</a>
+                </div>-->
+
+            </div>
 
 
-        <p align="justify">
-            For our 23rd symposium, <strong>we are meeting in USA, </strong> in the city of <b>Nashville</b>
-            <!-- Madrid from <strong>May 29 - 31, 2018</strong>  -->.
-            Our meetings will take place at <b>TBD</b>.
-            <!-- <a href="http://www.ntu.edu.sg/nec/Pages/default.aspx">Nanyang Executive Centre, NTU</a>. -->
-
-            For more information on IEEE ISORC 2020 and its location, calls for papers, workshops, and events,
-            please use the menu bar at the top of the screen of the main page. We look forward to seeing you in USA in
-            Nashville 2020!</p>
-
-        <div style="font-size: 22px; text-align: center">
-            <strong>
-                Click <a href="https://www.nashville.com/">here</a> or <a
-                    href="https://www.visitmusiccity.com/">here</a> to find Nashville visitor and tourist information.
-            </strong>
-        </div>
+            <div style="font-size: 22px; text-align: center">
+                <strong>
+                    Click <a href="https://www.nashville.com/">here</a> or <a
+                        href="https://www.visitmusiccity.com/">here</a> to find Nashville visitor and tourist
+                    information.
+                </strong>
+            </div>
 
 
-        <div class="highlightBox"
-             style="background-color: #f49d0e; border-color: #1d4e89; font-size: 22px; padding: 5px; padding-left: 5px; margin-top: 20px;  font-weight:bold; text-align: center">
-            Keynote Speakers</strong></div>
-        <p>TBD</p>
-        <!--
-        <p>
-            <ul>
-                <li><a href="http://www.cis.upenn.edu/~lee/home/index.shtml" target="_blank">Insup Lee</a>, University
-                    of Pennsylvania
-                </li>
-        <p>
-            <b>Title:</b> The Internet of Medical Things: Personalizing Medicine in an Impersonal World</p>
-        <b>Abstract:</b> The Internet of Medical Things (IoMT) allows data from multiple medical devices to be
-        aggregated and analyzed and actions of multiple devices to be synchronized and automated to achieve improved
-        patient monitoring and care. IoMT can be used to improve patient safety and treatment outcomes by leveraging
-        diverse capabilities of individual devices to gain a more detailed and accurate picture of the evolving patient
-        state and also by automating some of the tasks currently performed by caregivers. The development of such IoMT
-        that are both safe and effective has presented many challenges. These challenges include achieving high levels
-        of assurance in system software, interoperability, context-aware decision support, autonomy, security and
-        privacy, and certification. This talk will discuss these challenges, case studies that illustrate ways to
-        address them, and highlights open research and development issues in the following areas: (1) device
-        interoperability platform that guarantees safety, security, and privacy; (2) decision supports Fusion of
-        heterogeneous data sources with context information; and (3) cooperative closed-loop physiological control
-        between automation and human operators.
-        </p>
-        <p>
-            <b>Biography:</b>
-            Insup Lee is the Cecilia Fitler Moore Professor in the Department of Computer and Information Science,
-            Director of PRECISE Center, and Co-Director of Penn Health-Tech at the University of Pennsylvania. He also
-            holds a secondary appointment in the Department of Electrical and Systems Engineering. His research
-            interests include cyber-physical systems (CPS), real-time systems, embedded systems, high-confidence medical
-            device systems, formal methods and tools, run-time verification, software certification, and trust
-            management. The theme of his research activities has been to assure and improve the correctness, safety, and
-            timeliness of life-critical embedded systems. He is ACM fellow and IEEE fellow and received IEEE TC-RTS
-            Outstanding Technical Achievement and Leadership Award in 2008.
-        </p>
+            <div class="highlightBox"
+                 style="background-color: #f49d0e; border-color: #1d4e89; font-size: 22px; padding: 5px; padding-left: 5px; margin-top: 20px;  font-weight:bold; text-align: center">
+                Keynote Speakers</strong></div>
+            <p>TBD</p>
+            <!--
+            <p>
+                <ul>
+                    <li><a href="http://www.cis.upenn.edu/~lee/home/index.shtml" target="_blank">Insup Lee</a>, University
+                        of Pennsylvania
+                    </li>
+            <p>
+                <b>Title:</b> The Internet of Medical Things: Personalizing Medicine in an Impersonal World</p>
+            <b>Abstract:</b> The Internet of Medical Things (IoMT) allows data from multiple medical devices to be
+            aggregated and analyzed and actions of multiple devices to be synchronized and automated to achieve improved
+            patient monitoring and care. IoMT can be used to improve patient safety and treatment outcomes by leveraging
+            diverse capabilities of individual devices to gain a more detailed and accurate picture of the evolving patient
+            state and also by automating some of the tasks currently performed by caregivers. The development of such IoMT
+            that are both safe and effective has presented many challenges. These challenges include achieving high levels
+            of assurance in system software, interoperability, context-aware decision support, autonomy, security and
+            privacy, and certification. This talk will discuss these challenges, case studies that illustrate ways to
+            address them, and highlights open research and development issues in the following areas: (1) device
+            interoperability platform that guarantees safety, security, and privacy; (2) decision supports Fusion of
+            heterogeneous data sources with context information; and (3) cooperative closed-loop physiological control
+            between automation and human operators.
+            </p>
+            <p>
+                <b>Biography:</b>
+                Insup Lee is the Cecilia Fitler Moore Professor in the Department of Computer and Information Science,
+                Director of PRECISE Center, and Co-Director of Penn Health-Tech at the University of Pennsylvania. He also
+                holds a secondary appointment in the Department of Electrical and Systems Engineering. His research
+                interests include cyber-physical systems (CPS), real-time systems, embedded systems, high-confidence medical
+                device systems, formal methods and tools, run-time verification, software certification, and trust
+                management. The theme of his research activities has been to assure and improve the correctness, safety, and
+                timeliness of life-critical embedded systems. He is ACM fellow and IEEE fellow and received IEEE TC-RTS
+                Outstanding Technical Achievement and Leadership Award in 2008.
+            </p>
 
 
-        <li><a href="https://arcb.csc.ncsu.edu/~mueller/" target="_blank">Frank Mueller</a>, North Carolina State
-            University, USA
-        </li>
-        <p>
-            <b>Title:</b> Quantum Computing: A Systems Perspective</p>
-        <b>Abstract:</b> Quantum Computing (QC) has reached an early state of device maturity
-        with the availability of several hardware platforms and corresponding
-        programming environments. The potential of QC is significant as
-        algorithms, such as Shor's prime factoring, have the potential to
-        break the barriers of classical complexity classes. Yet, current Noisy
-        Intermediate Scale Quantum (NISQ) platforms are constrained in size
-        and fidelity.
-        <br/>
-        This talk provides a short primer on quantum computing with
-        programming examples on publicly accessible NISQ platforms. It
-        discusses the theoretical promises, assesses contemporary realities,
-        identifies potentially promising research directions, and investigates
-        potential impacts on the field of computing for a Computer Science
-        perspective.
-        </p>
-        <p>
-            <b>Biography:</b>
-            Frank Mueller is a Professor in Computer Science and a member of
-            multiple research centers at North Carolina State
-            University. Previously, he held positions at Lawrence Livermore
-            National Laboratory and Humboldt University Berlin, Germany. He
-            received his Ph.D. from Florida State University in 1994. He has
-            published papers in the areas of parallel and distributed systems,
-            embedded and real-time systems, compilers and quantum computing. He
-            is a member of ACM SIGPLAN, ACM SIGBED and an ACM Fellow as well as an
-            IEEE Fellow. He is a recipient of an NSF Career Award, an IBM Faculty
-            Award, a Google Research Award and two Fellowships from the Humboldt
-            Foundation.
-        </p>
-        -->
-        </ul>
+            <li><a href="https://arcb.csc.ncsu.edu/~mueller/" target="_blank">Frank Mueller</a>, North Carolina State
+                University, USA
+            </li>
+            <p>
+                <b>Title:</b> Quantum Computing: A Systems Perspective</p>
+            <b>Abstract:</b> Quantum Computing (QC) has reached an early state of device maturity
+            with the availability of several hardware platforms and corresponding
+            programming environments. The potential of QC is significant as
+            algorithms, such as Shor's prime factoring, have the potential to
+            break the barriers of classical complexity classes. Yet, current Noisy
+            Intermediate Scale Quantum (NISQ) platforms are constrained in size
+            and fidelity.
+            <br/>
+            This talk provides a short primer on quantum computing with
+            programming examples on publicly accessible NISQ platforms. It
+            discusses the theoretical promises, assesses contemporary realities,
+            identifies potentially promising research directions, and investigates
+            potential impacts on the field of computing for a Computer Science
+            perspective.
+            </p>
+            <p>
+                <b>Biography:</b>
+                Frank Mueller is a Professor in Computer Science and a member of
+                multiple research centers at North Carolina State
+                University. Previously, he held positions at Lawrence Livermore
+                National Laboratory and Humboldt University Berlin, Germany. He
+                received his Ph.D. from Florida State University in 1994. He has
+                published papers in the areas of parallel and distributed systems,
+                embedded and real-time systems, compilers and quantum computing. He
+                is a member of ACM SIGPLAN, ACM SIGBED and an ACM Fellow as well as an
+                IEEE Fellow. He is a recipient of an NSF Career Award, an IBM Faculty
+                Award, a Google Research Award and two Fellowships from the Humboldt
+                Foundation.
+            </p>
+            -->
+            </ul>
 
 
-        <div class="highlightBox"
-             style="background-color: #f49d0e; border-color: #1d4e89; font-size: 22px; padding: 5px; padding-left: 5px; margin-top: 20px;  font-weight:bold; text-align: center">
-            Acknowledgements
-        </div>
-        <p> We acknowledge support from the following.</p>
-        <table style="width:100%">
-            <tr>
-               <td><img border="0" src="resources/ieee.png" width="250"/></td>
-<!--                <td><img border="0" src="resources/upv_logo.jpg" width="250"/></td>-->
-<!--                <td><img border="0" src="resources/uc3m.png" width="250"/></td>-->
-           </tr>
-        </table>
+            <div class="highlightBox"
+                 style="background-color: #f49d0e; border-color: #1d4e89; font-size: 22px; padding: 5px; padding-left: 5px; margin-top: 20px;  font-weight:bold; text-align: center">
+                Acknowledgment
+            </div>
+            <p> We acknowledge support from the following.</p>
+            <table style="width:100%">
+                <tr>
+                    <td><img border="0" src="resources/ieee.png" width="250"/></td>
+                    <!--                <td><img border="0" src="resources/upv_logo.jpg" width="250"/></td>-->
+                    <!--                <td><img border="0" src="resources/uc3m.png" width="250"/></td>-->
+                </tr>
+            </table>
 
-        <!-- InstanceEndEditable --></div>
-
-
-    <div id="footerBlock">23rd IEEE INTERNATIONAL SYMPOSIUM ON REAL-TIME COMPUTING</div>
-    <br/><br/>
+            <!-- InstanceEndEditable --></div>
 
 
-</div> <!-- end of mainBody -->
+        <div id="footerBlock">23rd IEEE INTERNATIONAL SYMPOSIUM ON REAL-TIME COMPUTING</div>
+        <br/><br/>
+
+
+    </div> <!-- end of mainBody -->
 </body>
 <!-- InstanceEnd --></html>
