@@ -142,7 +142,8 @@
     </div>
     <!-- Button Style-->
     <style>
-      input[type=button] {
+      /* input[type=button] { */
+      .button{
         box-shadow: inset 0px 1px 0px 0px #e184f3;
         background: linear-gradient(to bottom, #c123de 5%, #5B2C6F 100%);
         background-color: #c123de;
@@ -155,6 +156,22 @@
         font-size: 12px;
         text-decoration: none;
         text-shadow: 0px 1px 0px #700985;
+        vertical-align: bottom;
+      }
+    
+    .button1{
+        box-shadow: inset 0px 1px 0px 0px #AED6F1;
+        background: linear-gradient(to bottom, #2874A6 5%, #154360 100%);
+        background-color: #2874A6;
+        border-radius: 9px;
+        border: 1px solid #2874A6;
+        display: inline-block;
+        cursor: pointer;
+        color: #ffffff;
+        font-family: Arial;
+        font-size: 12px;
+        text-decoration: none;
+        text-shadow: 0px 1px 0px #154360;
         vertical-align: bottom;
       }
     </style>
@@ -323,7 +340,7 @@
         <td class="tg-7n5y">Demystifying Amazon DynamoDB: Fast and flexible NoSQL database service for any scale<br/>
           Akshat Vig, Amazon Web Services (AWS)
           <input onClick="window.location.href='https://isorc2020.slack.com/archives/C013Z9J9XDE'" style="float: right;"
-                 type="button"
+                 type="button" class="button"
                  value="Discuss on Slack #keynote">
         </td>
       </tr>
@@ -357,8 +374,13 @@
 
 
           <input onClick="window.location.href='https://isorc2020.slack.com/archives/C0132LVB0FQ'" style="float: right;"
-                 type="button"
+                 type="button" class="button"
                  value="Discuss on Slack #fp-2">
+
+          <input onClick="window.location.href='https://youtu.be/1O0DkkYCPL0'" style="float: right;"
+                 type="button" class="button1"
+                 value="Video"> 
+
         </td>
       </tr>
       <tr>
@@ -366,10 +388,14 @@
         <td class="tg-7n5y">17:20</td>
         <td class="tg-7n5y">FP-9</td>
         <td class="tg-7n5y">Precisely Timed Task Execution<br> S. Reif, W. Schröder-Preikschat
-
+          
           <input onClick="window.location.href='https://isorc2020.slack.com/archives/C0139KH9XLK'" style="float: right;"
-                 type="button"
+                 type="button" class="button"
                  value="Discuss on Slack #fp-9">
+
+          <input onClick="window.location.href='https://youtu.be/4YUNC9_0ZRU'" style="float: right;"
+                 type="button" class="button1"
+                 value="Video">  
         </td>
       </tr>
       <tr>
@@ -379,8 +405,12 @@
         <td class="tg-7n5y">An Architecture for Declarative Real-Time Scheduling on Linux<br> G. Serra, G. Ara, P. Fara,
           T. Cucinotta
           <input onClick="window.location.href='https://isorc2020.slack.com/archives/C0139KHMYE7'" style="float: right;"
-                 type="button"
+                 type="button" class="button"
                  value="Discuss on Slack #fp-21">
+
+          <input onClick="window.location.href='https://youtu.be/BRmnMEGIMQY'" style="float: right;"
+                 type="button" class="button1"
+                 value="Video">  
         </td>
       </tr>
       <tr>
@@ -389,8 +419,12 @@
         <td class="tg-7n5y">FP-7</td>
         <td class="tg-7n5y">The Efficient Multiprocessor Implementation of Synchronous Reactive Components<br> S. Baruah
           <input onClick="window.location.href='https://isorc2020.slack.com/archives/C013N2BURMF'" style="float: right;"
-                 type="button"
+                 type="button" class="button"
                  value="Discuss on Slack #fp-7">
+
+          <input onClick="window.location.href='https://youtu.be/n9j7e8d11jY'" style="float: right;"
+                 type="button" class="button1"
+                 value="Video">  
         </td>
       </tr>
       <tr>
@@ -400,8 +434,12 @@
         <td class="tg-7n5y">Heuristic partitioning of real-time tasks on multi-processors<br> A. Mascitti, T. Cucinotta,
           L. Abeni
           <input onClick="window.location.href='https://isorc2020.slack.com/archives/C013N2D1KGR'" style="float: right;"
-                 type="button"
+                 type="button" class="button"
                  value="Discuss on Slack #ip-1">
+
+          <input onClick="window.location.href='https://youtu.be/oepw4TUWjZY'" style="float: right;"
+                 type="button" class="button1"
+                 value="Video"> 
         </td>
       </tr>
       <tr>
@@ -410,8 +448,12 @@
         <td class="tg-7n5y">SP-10</td>
         <td class="tg-7n5y">A Real-Time Application with Fully Predictable Task Timing<br> M. Platzer, P. Puschner
           <input onClick="window.location.href='https://isorc2020.slack.com/archives/C013Z8QM6N4'" style="float: right;"
-                 type="button"
+                 type="button" class="button"
                  value="Discuss on Slack #sp-10">
+
+          <input onClick="window.location.href='https://youtu.be/Nd2AoHKRVNE'" style="float: right;"
+                 type="button" class="button1"
+                 value="Video">  
         </td>
       </tr>
       <tr>
@@ -441,8 +483,12 @@
         <td class="tg-7n5y">Multi-Level Preemption in TSN: Feasibility and Requirements Analysis<br> M. Ojewale, P.
           Yomsi, B. Nikolic
           <input onClick="window.location.href='https://isorc2020.slack.com/archives/C01395VVA93'" style="float: right;"
-                 type="button"
+                 type="button" class="button"
                  value="Discuss on Slack #fp-6">
+
+          <input onClick="window.location.href='https://youtu.be/RiRfXMrEqaQ'" style="float: right;"
+                 type="button" class="button1"
+                 value="Video"> 
         </td>
       </tr>
       <tr>
@@ -452,8 +498,12 @@
         <td class="tg-7n5y">Time-dependent Decentralized Routing using Federated Learning<br> M. Wilbur, C. Samal, J.
           Talusan, K. Yasumoto, A. Dubey
           <input onClick="window.location.href='https://isorc2020.slack.com/archives/C013AP9UB19'" style="float: right;"
-                 type="button"
+                 type="button" class="button"
                  value="Discuss on Slack #fp-24">
+
+          <input onClick="window.location.href='https://youtu.be/ZmGRQGnrC5I'" style="float: right;"
+                 type="button" class="button1"
+                 value="Video"> 
         </td>
       </tr>
       <tr>
@@ -463,8 +513,12 @@
         <td class="tg-7n5y">A Model-driven Middleware Integration Approach for Performance-Sensitive Distributed
           Simulations<br> T. Brummett, K. An, A. Gokhale, S. Mertens
           <input onClick="window.location.href='https://isorc2020.slack.com/archives/C012VQU9M7Z'" style="float: right;"
-                 type="button"
+                 type="button" class="button"
                  value="Discuss on Slack #fp-20">
+
+          <input onClick="window.location.href='https://youtu.be/kmKd7l1ar2s'" style="float: right;"
+                 type="button" class="button1"
+                 value="Video"> 
         </td>
       </tr>
       <tr>
@@ -474,8 +528,12 @@
         <td class="tg-7n5y">Container-Based Internet-of-Things Architecture Pattern: Kill Switch<br> D. Lennick, A.
           Azim, R. Liscano
           <input onClick="window.location.href='https://isorc2020.slack.com/archives/C013AHCBKSN'" style="float: right;"
-                 type="button"
+                 type="button" class="button"
                  value="Discuss on Slack #sp-12">
+          
+          <input onClick="window.location.href='https://youtu.be/DW6QJ9OSZMs'" style="float: right;"
+                 type="button" class="button1"
+                 value="Video"> 
         </td>
       </tr>
       <tr>
@@ -485,8 +543,11 @@
         <td class="tg-7n5y">Heterogeneous Task Co-location in Containerized Cloud Computing Environments<br> Z. Zhong,
           J. He, M. Rodriguez, S. Erfani, R. Kotagiri, R. Buyya
           <input onClick="window.location.href='https://isorc2020.slack.com/archives/C012VR0SQ6B'" style="float: right;"
-                 type="button"
+                 type="button" class="button"
                  value="Discuss on Slack #ip-3">
+          <input onClick="window.location.href='https://youtu.be/zBlI5Mho0ck'" style="float: right;"
+                 type="button" class="button1"
+                 value="Video"> 
         </td>
       </tr>
       <tr>
@@ -547,7 +608,7 @@
         <td class="tg-7n5y">Security in Mixed Time and Event Triggered Cyber-Physical Systems using Moving Target
           Defense<br> B. Potteiger, F. Cai, A. Dubey, Z. Zhang, X. Koutsoukos
           <input onClick="window.location.href='https://isorc2020.slack.com/archives/C01396X6X6H'" style="float: right;"
-                 type="button"
+                 type="button" class="button"
                  value="Discuss on Slack #fp-13">
         </td>
       </tr>
@@ -558,7 +619,7 @@
         <td class="tg-7n5y">Harmonizing ARINC 653 and Realtime POSIX for Conformance to the FACE Technical Standard<br>
           G. Bloom, J. Sherrill
           <input onClick="window.location.href='https://isorc2020.slack.com/archives/C0133S1C5JS'" style="float: right;"
-                 type="button"
+                 type="button" class="button"
                  value="Discuss on Slack #fp-14">
         </td>
       </tr>
@@ -569,7 +630,7 @@
         <td class="tg-7n5y">A Situation-Aware Adaptation Framework for Intelligent Transportation Systems<br> N. Islam,
           A. Azim
           <input onClick="window.location.href='https://isorc2020.slack.com/archives/C013971V7GV'" style="float: right;"
-                 type="button"
+                 type="button" class="button"
                  value="Discuss on Slack #fp-26">
         </td>
       </tr>
@@ -579,7 +640,7 @@
         <td class="tg-7n5y">IP-5</td>
         <td class="tg-7n5y">Predictable Vision for Autonomous Systems<br> M. Balszun, M. Geier, S. Chakraborty
           <input onClick="window.location.href='https://isorc2020.slack.com/archives/C012VRVJB9V'" style="float: right;"
-                 type="button"
+                 type="button" class="button"
                  value="Discuss on Slack #ip-5">
         </td>
       </tr>
@@ -590,7 +651,7 @@
         <td class="tg-7n5y">The Price of Schedulability in Multi-Object Tracking: The History-vs.-Accuracy Trade-Off<br>
           T. Amert, M. Yang, S. Nandi, T. Vu, J. Anderson, F. Smith
           <input onClick="window.location.href='https://isorc2020.slack.com/archives/C012VRXBSQ7'" style="float: right;"
-                 type="button"
+                 type="button" class="button"
                  value="Discuss on Slack #ip-8">
         </td>
       </tr>
@@ -600,7 +661,7 @@
         <td class="tg-7n5y">IP-4</td>
         <td class="tg-7n5y">Fast Failover in Ethernet-Based Automotive Networks<br> A. Kostrzewa, R. Ernst
           <input onClick="window.location.href='https://isorc2020.slack.com/archives/C013GPM4QMS'" style="float: right;"
-                 type="button"
+                 type="button" class="button"
                  value="Discuss on Slack #ip-4">
         </td>
       </tr>
@@ -620,7 +681,7 @@
       <tr>
         <td class="tg-wsmb" colspan="5">Session 4: WIP intro
           <input onClick="window.location.href='https://isorc2020.slack.com/archives/C013GL88KJQ'" style="float: right;"
-                 type="button"
+                 type="button" class="button"
                  value="Discuss on Slack #wip">
         </td>
       </tr>
@@ -744,7 +805,7 @@
         <td class="tg-7n5y">A Generalized Approach for Non-intrusive Real-time Instrumentation of Standards-based
           Distributed Middleware<br> N. Lui, J. Hill
           <input onClick="window.location.href='https://isorc2020.slack.com/archives/C013P7Z806M'" style="float: right;"
-                 type="button"
+                 type="button" class="button"
                  value="Discuss on Slack #fp-8">
         </td>
       </tr>
@@ -755,7 +816,7 @@
         <td class="tg-7n5y">Using Multi-core Architectures to Improve the Performance of Real-time
           Dynamic Binary Instrumentation<br> M. Du, J. Hill
           <input onClick="window.location.href='https://isorc2020.slack.com/archives/C013H8MFJLB'" style="float: right;"
-          type="button"
+          type="button" class="button"
           value="Discuss on Slack #fp-15">
         </td>
       </tr>
@@ -765,7 +826,7 @@
         <td class="tg-7n5y">FP-19</td>
         <td class="tg-7n5y">Towards Dual-Issue Single-Path Code<br> E. Maroun, M. Schoeberl, P. Puschner
           <input onClick="window.location.href='https://isorc2020.slack.com/archives/C0133T222TY'" style="float: right;"
-                 type="button"
+                 type="button" class="button"
                  value="Discuss on Slack #fp-19">
         </td>
       </tr>
@@ -776,7 +837,7 @@
         <td class="tg-7n5y">EXPPO: EXecution Performance Profiling and Optimization for CPS
           Co-simulation-as-a-Service<br> Y. Barve, Z. Kang, H. Sun, A. Gokhale, H. Neema, T. Roth
           <input onClick="window.location.href='https://isorc2020.slack.com/archives/C0140EFT2SC'" style="float: right;"
-                 type="button"
+                 type="button" class="button"
                  value="Discuss on Slack #fp-22">
         </td>
       </tr>
@@ -787,7 +848,7 @@
         <td class="tg-7n5y">A Systematic Migration Methodology for Complex Real-time Software Systems<br> M. Shaik, A.
           Papadopoulos, S. Mubeen, T. Nolte
           <input onClick="window.location.href='https://isorc2020.slack.com/archives/C013GQLJE6Q'" style="float: right;"
-                 type="button"
+                 type="button" class="button"
                  value="Discuss on Slack #fp-34">
         </td>
       </tr>
@@ -800,7 +861,7 @@
           E. Quiñones, S. Royuela, C. Scordino, L. Pinho, T. Cucinotta, B. Forsberg, A. Hamann, D. Ziegenbein, P. Gai,
           A. Biondi, L. Benini, J. Rollo, H. Saoud, R. Soulat, G. Mando, L. Rucher, L. Nogueira
           <input onClick="window.location.href='https://isorc2020.slack.com/archives/C013P7VQL20'" style="float: right;"
-          type="button"
+          type="button" class="button"
           value="Discuss on Slack #ip-6">
         </td> 
       </tr>
@@ -847,7 +908,7 @@
       <tr>
         <td class="tg-gsab" colspan="5">ODRE Workshop
           <input onClick="window.location.href='https://isorc2020.slack.com/archives/C013AG5018S'" style="float: right;"
-                 type="button"
+                 type="button" class="button"
                  value="Discuss on Slack #odre">
         </td>
       </tr>
